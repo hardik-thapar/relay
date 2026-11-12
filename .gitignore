@@ -1,0 +1,17 @@
+# secrets: key lives only in the GROQ_API_KEY env var
+.env
+*.key
+
+# downloaded PDFs (re-fetch with scripts/fetch.sh)
+data/papers/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# go / os / editor
+*.test
+*.out
+.DS_Store
+.vscode/
